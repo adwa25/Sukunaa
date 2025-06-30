@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codashop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#top-up">Top Up</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Selamat Datang di Codashop</h1>
+            <p>Tempat top up game Anda</p>
+        </section>
+        <section id="top-up">
+            <h1>Top Up Game</h1>
+            <form action="payment.php" method="post">
+                <label for="nominal">Nominal:</label>
+                <input type="number" id="nominal" name="nominal" required>
+                <button type="submit">Bayar</button>
+            </form>
+        </section>
+        <section id="kontak">
+            <h1>Kontak Kami</h1>
+            <p>Depo: Codashop +6288267074566</p>
+            <p>Telepon: +62 888-0215-2985</p>
+            <p>Whatsapp: +6288267074566</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Codashop</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
